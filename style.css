@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    
+}
+
+.container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(152, 72, 227);
+    box-shadow: 20px;
+    color: white;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(22, 18, 26);
+    }
+
+}
+
+img{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+    position: absolute;
+    top: 100px;
+  
+}
+
+.showcase h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+.button {
+    border-inline: solid ;
+    display: inline-block;
+    background-color: rgb(152, 72, 227);
+    color:white;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: rgb(22, 18, 26);
+    }
+}
